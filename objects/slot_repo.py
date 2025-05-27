@@ -3,8 +3,8 @@
 import logging
 import asyncpg
 from typing import Optional
-from models import Slot           # Pydantic-модель Slot
-from database import Database     # ваш класс Database с self.pool
+from .models import Slot           # Pydantic-модель Slot
+from .database import Database     # ваш класс Database с self.pool
 
 logger = logging.getLogger(__name__)
 
