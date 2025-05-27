@@ -2,8 +2,8 @@
 
 from typing import Optional
 from asyncpg.exceptions import UniqueViolationError, PostgresError
-from models import Server
-from database import Database
+from .models import Server
+from .database import Database
 
 
 class ServerRepository:

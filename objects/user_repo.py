@@ -4,7 +4,7 @@ import logging
 from typing import Optional, List, Dict, Any
 from asyncpg.exceptions import PostgresError
 
-from models import User            # Модель пользователя
+from .models import User          # Модель пользователя
 from database import Database      # Ваш класс Database, у которого есть атрибут .pool
 
 logger = logging.getLogger(__name__)
